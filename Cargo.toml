@@ -1,0 +1,18 @@
+[package]
+name = "download-manager"
+version = "0.1.0"
+authors = ["Matéo Mévollon <m.mevollon@proton.me>"]
+license = "MIT"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.79"
+byte-unit = "5.1.4"
+crossterm = { version = "0.27.0", features = ["event-stream"] }
+dotenv = "0.15.0"
+futures = "0.3.30"
+ratatui = "0.26.0"
+reqwest = { version = "0.11.24", features = ["stream"] }
+tokio = { version = "1.35.1", features = ["full"] }
+tui-textarea = "0.4.0"
+url = "2.5.0"
